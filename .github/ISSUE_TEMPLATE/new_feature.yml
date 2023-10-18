@@ -13,7 +13,8 @@ body:
   - type: dropdown
     id: offer
     multiple: true
-    required: true
+    validations:
+      required: true
     attributes:
       label: Offer
       description: What product is impacted by the feature? (select all that apply)

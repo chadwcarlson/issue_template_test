@@ -1,7 +1,7 @@
 name: New feature
 description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
+title: "[Feature]: "
+labels: ["feature", "triage"]
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
@@ -9,7 +9,20 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for helping us document new features!
+  - type: dropdown
+    id: offer
+    multiple: true
+    required: true
+    attributes:
+      label: Offer
+      description: What product is impacted by the feature? (select all that apply)
+      options:
+        - Platform.sh
+        - Upsun
+        - Blackfire.io
+        - DDEV
+      default: 0
   - type: input
     id: contact
     attributes:

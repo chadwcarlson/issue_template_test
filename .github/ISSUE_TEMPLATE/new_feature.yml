@@ -67,7 +67,6 @@ body:
     attributes:
       label: Feature details
       description: Please any details/descriptions that can be shared publicly at this point. The DevRel team will follow-up in our first sync to detail the issue for delivery.
-      render: markdown
       placeholder: |
 
         ## Overview

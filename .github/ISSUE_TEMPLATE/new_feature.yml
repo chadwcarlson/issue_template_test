@@ -32,8 +32,8 @@ body:
       label: Breaking change
       description: Does this feature introduce a breaking change?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
       default: 0
   # - type: checkboxes
   #   attributes:

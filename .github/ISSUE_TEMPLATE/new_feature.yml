@@ -63,11 +63,27 @@ body:
   #       - Safari
   #       - Microsoft Edge
   - type: textarea
-    id: logs
+    id: description
     attributes:
       label: Feature details
       description: Please any details/descriptions that can be shared publicly at this point. The DevRel team will follow-up in our first sync to detail the issue for delivery.
       render: markdown
+      placeholder: |
+
+        ## Overview
+
+        At the very least, please edit this line with a few sentences publicly describing the feature here. 
+
+        ## Affected docs pages
+
+        TBD
+
+        ## Other details
+
+        TBD
+
+        
+        
   # - type: checkboxes
   #   id: terms
   #   attributes:

@@ -65,9 +65,9 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
+      label: Feature details
       description: Please any details/descriptions that can be shared publicly at this point. The DevRel team will follow-up in our first sync to detail the issue for delivery.
-      render: shell
+      render: markdown
   # - type: checkboxes
   #   id: terms
   #   attributes:

@@ -24,6 +24,17 @@ body:
         - Blackfire.io
         - DDEV
       default: 0
+  - type: dropdown
+    id: breaking
+    validations:
+      required: true
+    attributes:
+      label: Breaking change
+      description: Does this feature introduce a breaking change?
+      options:
+        - Yes
+        - No
+      default: 0
   - type: checkboxes
     attributes:
       label: Does this introduce a breaking change?

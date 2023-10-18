@@ -12,11 +12,11 @@ body:
         Thanks for helping us document new features!
   - type: dropdown
     id: offer
-    multiple: true
     validations:
       required: true
     attributes:
       label: Offer
+      multiple: true
       description: What product is impacted by the feature? (select all that apply)
       options:
         - Platform.sh

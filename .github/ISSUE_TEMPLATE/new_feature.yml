@@ -168,10 +168,20 @@ body:
     attributes:
       label: Problem
       description: What's being solved by this feature?
-      placeholder: TBD
-      value: "A bug happened!"
-    validations:
-      required: true
+      value: TBD
+  - type: textarea
+    id: crud_config
+    attributes:
+      label: CRUD and/or schema
+      description: How is the feature configured, enabled, disabled, and updated? 
+      value: TBD
+  - type: textarea
+    id: bc_breaking
+    attributes:
+      label: Backwards compatibility & breaking changes
+      description: Please include any relevant details related to BC and breaking changes.
+      value: TBD
+
       
   # - type: checkboxes
   #   attributes:

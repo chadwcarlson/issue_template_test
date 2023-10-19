@@ -16,7 +16,7 @@ body:
     id: description
     attributes:
       label: Feature details
-      description: Please any description that can be shared publicly at this point. The DevRel team will follow-up in our first sync to detail the issue for delivery.
+      description: Please include a description that can be shared publicly at this point. The DevRel team will follow-up in our first sync to detail the issue for delivery.
       placeholder: |
         Please edit this line with a few sentences publicly describing the feature here. 
   - type: dropdown

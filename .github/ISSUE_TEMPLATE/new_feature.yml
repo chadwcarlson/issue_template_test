@@ -1,5 +1,5 @@
 name: New feature
-description: Begin tracking new product features with an issue
+description: Track product features that require new documentation
 title: "[Feature]: "
 labels: ["feature"]
 projects: ["platformsh/projects/3"]

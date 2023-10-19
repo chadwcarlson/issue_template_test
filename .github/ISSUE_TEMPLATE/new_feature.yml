@@ -10,6 +10,13 @@ body:
     attributes:
       value: |
         Thanks for helping us document new features!
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature details
+      description: Please any description that can be shared publicly at this point. The DevRel team will follow-up in our first sync to detail the issue for delivery.
+      placeholder: |
+        Please edit this line with a few sentences publicly describing the feature here. 
   - type: dropdown
     id: offer
     validations:
@@ -130,24 +137,6 @@ body:
   #       - Chrome
   #       - Safari
   #       - Microsoft Edge
-  - type: textarea
-    id: description
-    attributes:
-      label: Feature details
-      description: Please any details/descriptions that can be shared publicly at this point. The DevRel team will follow-up in our first sync to detail the issue for delivery.
-      placeholder: |
-
-        ## Overview
-
-        At the very least, please edit this line with a few sentences publicly describing the feature here. 
-
-        ## Affected docs pages
-
-        TBD
-
-        ## Other details
-
-        TBD
 
         
         

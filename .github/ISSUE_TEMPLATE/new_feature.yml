@@ -50,6 +50,17 @@ body:
         - Real-User Monitoring
         - Troubleshooting
       default: 0
+  - type: dropdown
+    id: request_type
+    validations:
+      required: true
+    attributes:
+      label: Docs requirements
+      description: Does this feature require new docs/sections, adjustments to existing docs, or both?
+      options:
+        - "There will need to be new pages or sections written."
+        - "The feature makes changes to existing docs pages."
+      default: 0
   # - type: checkboxes
   #   attributes:
   #     label: Does this introduce a breaking change?

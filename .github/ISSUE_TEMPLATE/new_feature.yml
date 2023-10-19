@@ -36,7 +36,7 @@ body:
         - "No"
       default: 0
   - type: dropdown
-    id: offer
+    id: observability_domain
     validations:
       required: true
     attributes:

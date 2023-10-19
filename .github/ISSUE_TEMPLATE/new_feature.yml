@@ -60,6 +60,23 @@ body:
         - Troubleshooting
       default: 0
   - type: dropdown
+    id: component_impact
+    validations:
+      required: true
+    attributes:
+      label: DX impact
+      multiple: true
+      description: Where will users encounter the feature? (select all that apply)
+      options:
+        - API
+        - CLI
+        - Console
+        - Blackfire.io dashboard
+        - Blackfire.io player
+        - Blackfire.io CLI
+        - DDEV CLI
+      default: 0
+  - type: dropdown
     id: request_type
     validations:
       required: true
@@ -69,6 +86,7 @@ body:
       options:
         - "The feature makes changes to existing docs pages."
         - "There will need to be new pages or sections written."
+        - "This feature changes behavior or recommended use considerably, and should likely have docs-wide consequences."
         - "Not sure. TBD"
       default: 0
   - type: dropdown
@@ -93,6 +111,19 @@ body:
         - "(Platform.sh/Upsun) Reference > Development"
         - "(Platform.sh) Reference > Dedicated 2/3"
         - "(Upsun) Reference > Manage resources"
+      default: 0
+  - type: dropdown
+    id: other_requirements
+    validations:
+      required: true
+    attributes:
+      label: Additional requirements
+      description: Are there other requirements of the feature the DevRel team should know about? (select all that apply)
+      options:
+        - "Screenshots will be needed."
+        # - "A video demo would be helpful."
+        - "Testing is needed."
+        - "Not sure. TBD"
       default: 0
   # - type: checkboxes
   #   attributes:

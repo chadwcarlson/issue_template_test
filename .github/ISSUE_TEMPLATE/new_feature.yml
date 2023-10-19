@@ -18,7 +18,7 @@ body:
       label: Feature details
       description: Please include a description that can be shared publicly at this point. The DevRel team will follow-up to create a documentation sync schedule ahead of delivery.
       placeholder: |
-        Please edit this line with a few sentences publicly describing the feature here. 
+        Please edit this line with a few sentences publicly describing the feature. 
   - type: dropdown
     id: offer
     validations:

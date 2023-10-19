@@ -58,8 +58,31 @@ body:
       label: Docs requirements
       description: Does this feature require new docs/sections, adjustments to existing docs, or both?
       options:
-        - "There will need to be new pages or sections written."
         - "The feature makes changes to existing docs pages."
+        - "There will need to be new pages or sections written."
+        - "Not sure. TBD"
+      default: 0
+  - type: dropdown
+    id: docs_impact
+    attributes:
+      label: Docs impact
+      description: Which areas of the documentation will be (or should be, in your mind) impacted by the feature?
+      options:
+        - "(Platform.sh/Upsun) Getting started materials or framework-specfic guides"
+        - "(Platform.sh/Upsun) Learn: tutorials & best practices"
+        - "(Platform.sh/Upsun) Reference > Configuration > Apps"
+        - "(Platform.sh/Upsun) Reference > Configuration > Services"
+        - "(Platform.sh/Upsun) Reference > Configuration > Routes"
+        - "(Platform.sh/Upsun) Reference > Configuration > Runtime languages"
+        - "(Platform.sh/Upsun) Reference > Integrations"
+        - "(Platform.sh/Upsun) Reference > Observability"
+        - "(Platform.sh/Upsun) Reference > Managing projects/environments"
+        - "(Platform.sh/Upsun) Reference > Domains"
+        - "(Platform.sh/Upsun) Reference > Administration"
+        - "(Platform.sh/Upsun) Reference > Security"
+        - "(Platform.sh/Upsun) Reference > Development"
+        - "(Platform.sh) Reference > Dedicated 2/3"
+        - "(Upsun) Reference > Manage resources"
       default: 0
   # - type: checkboxes
   #   attributes:

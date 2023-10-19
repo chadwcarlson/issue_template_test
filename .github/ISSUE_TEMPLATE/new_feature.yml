@@ -45,6 +45,19 @@ body:
         - "Yes"
       default: 0
   - type: dropdown
+    id: status
+    validations:
+      required: true
+    attributes:
+      label: Status
+      description: What's the current status of this feature?
+      options:
+        - "New idea"
+        - "Discovery"
+        - "Delivery"
+        - "Launched"
+      default: 0
+  - type: dropdown
     id: observability_domain
     attributes:
       label: Observability domain

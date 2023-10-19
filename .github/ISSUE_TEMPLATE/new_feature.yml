@@ -11,6 +11,8 @@ body:
       value: |
         Thanks for helping us document new features!
   - type: textarea
+    validations:
+      required: true
     id: description
     attributes:
       label: Feature details

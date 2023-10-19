@@ -37,10 +37,8 @@ body:
       default: 0
   - type: dropdown
     id: observability_domain
-    validations:
-      required: true
     attributes:
-      label: Offer
+      label: Observability domain
       multiple: true
       description: Observability domain (If applicable, select all that apply)
       options:

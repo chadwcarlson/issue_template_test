@@ -35,6 +35,23 @@ body:
         - "Yes"
         - "No"
       default: 0
+  - type: dropdown
+    id: offer
+    validations:
+      required: true
+    attributes:
+      label: Offer
+      multiple: true
+      description: Observability domain (If applicable, select all that apply)
+      options:
+        - Profiling
+        - Tracing
+        - Log Management
+        - Metrics
+        - Governance & compliance
+        - Real-User Monitoring
+        - Troubleshooting
+      default: 0
   # - type: checkboxes
   #   attributes:
   #     label: Does this introduce a breaking change?

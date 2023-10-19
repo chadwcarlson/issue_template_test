@@ -44,35 +44,35 @@ body:
         - "No"
         - "Yes"
       default: 0
-  - type: dropdown
-    id: status
-    validations:
-      required: true
-    attributes:
-      label: Status
-      description: What's the current status of this feature?
-      options:
-        - "New idea"
-        - "Discovery"
-        - "Delivery"
-        - "Launched"
-      default: 0
-  - type: dropdown
-    id: initiative
-    validations:
-      required: true
-    attributes:
-      label: Relevant initiative
-      description: Which product initiative does this feature fall under?
-      options:
-        - "Growth/Monetization"
-        - "Usage-based billing"
-        - "Self-service enablement"
-        - "User management"
-        - "Observability"
-        - "Horizontal PaaS"
-        - "Vendorization"
-      default: 0
+  # - type: dropdown
+  #   id: status
+  #   validations:
+  #     required: true
+  #   attributes:
+  #     label: Status
+  #     description: What's the current status of this feature?
+  #     options:
+  #       - "New idea"
+  #       - "Discovery"
+  #       - "Delivery"
+  #       - "Launched"
+  #     default: 0
+  # - type: dropdown
+  #   id: initiative
+  #   validations:
+  #     required: true
+  #   attributes:
+  #     label: Relevant initiative
+  #     description: Which product initiative does this feature fall under?
+  #     options:
+  #       - "Growth/Monetization"
+  #       - "Usage-based billing"
+  #       - "Self-service enablement"
+  #       - "User management"
+  #       - "Observability"
+  #       - "Horizontal PaaS"
+  #       - "Vendorization"
+  #     default: 0
   - type: dropdown
     id: observability_domain
     attributes:
@@ -90,14 +90,13 @@ body:
       default: 0
   - type: dropdown
     id: component_impact
-    validations:
-      required: true
     attributes:
       label: DX impact
       multiple: true
       description: Where will users encounter the feature? (select all that apply)
       options:
         - API
+        - Configuration schema changes
         - CLI
         - Console
         - Blackfire.io dashboard
@@ -164,6 +163,16 @@ body:
         - "Testing is needed."
         - "Not sure. TBD"
       default: 0
+  # - type: textarea
+  #   id: what-happened
+  #   attributes:
+  #     label: What happened?
+  #     description: Also tell us, what did you expect to happen?
+  #     placeholder: Tell us what you see!
+  #     value: "A bug happened!"
+  #   validations:
+  #     required: true
+      
   # - type: checkboxes
   #   attributes:
   #     label: Does this introduce a breaking change?

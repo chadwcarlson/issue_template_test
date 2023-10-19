@@ -58,6 +58,22 @@ body:
         - "Launched"
       default: 0
   - type: dropdown
+    id: initiative
+    validations:
+      required: true
+    attributes:
+      label: Relevant initiative
+      description: Which product initiative does this feature fall under?
+      options:
+        - "Growth/Monetization"
+        - "Usage-based billing"
+        - "Self-service enablement"
+        - "User management"
+        - "Observability"
+        - "Horizontal PaaS"
+        - "Vendorization"
+      default: 0
+  - type: dropdown
     id: observability_domain
     attributes:
       label: Observability domain
@@ -124,6 +140,15 @@ body:
         - "(Platform.sh/Upsun) Reference > Development"
         - "(Platform.sh) Reference > Dedicated 2/3"
         - "(Upsun) Reference > Manage resources"
+        - "(Blackfire) Introduction"
+        - "PHP"
+        - "Python"
+        - "Profile"
+        - "Monitor"
+        - "Test"
+        - "Build"
+        - "Integrate"
+        - "Reference guide"
       default: 0
   - type: dropdown
     id: other_requirements

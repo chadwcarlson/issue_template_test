@@ -117,6 +117,7 @@ body:
     validations:
       required: true
     attributes:
+      multiple: true
       label: Additional requirements
       description: Are there other requirements of the feature the DevRel team should know about? (select all that apply)
       options:
